@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive personal porfolio website design</title>
+    <link rel="stylesheet"  href="agangcss.css">
+</head>
+<body>
+    <header>
+        <div class="user">
+            <img src="images/ef.jpeg">
+            <h3 class="name">MA. THERESA R. AGANG</h3>
+            <p class="post">BSIT STUDENT</p>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">HOME</a></li>               
+                    <li><a href="#about">ABOUT</a></li>               
+                    <li><a href="#education">EDUCATION</a></li>               
+                    <li><a href="#portfolio">PORTFOLIO</a></li>               
+                    <li><a href="#contact">CONTACT</a></li>               
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div id="menu" class="fas fa-bars" ></div>
+    
+    <section class="home" id="home">
+
+        <h3>HI</h3>
+        <h1>I'M <span>MA. THERESA R. AGANG</span></h1>
+	  <br>
+
+        <p> I'm Ma. Theresa Rivas Agang, married, 34 years of age, from Mararag, Marihatag, Surigao Del Sur.
+		I am the eldest among the five siblings. During my college days, at the age of 18 years old I got married although I am the beadwinner of the family but the dreams was not able to stop there. I have been encountered all the hardships in life all throughout my married and siblings life but I have to be strong inorder to achieve all the dreams of mine and to my siblings as well.
+
+		Moreover, to support all the needs of my family, I worked and at the same time studying 
+ to pursue the dreams of my parents, my dreams and the dreams of my family as well. I do not know what future awaits me, but one thing I am sure that I will be more stronger to fight all the obstacles in life inorder for me to become successful someday.
+
+
+        </p>
+        
+
+	</section>
+
+
+
+
+    <!-- about section starts -->
+
+    <section class="about" id="about me">
+
+        <h1 class="heading"> <span> about </span> me </h1>
+
+        <div class="row">
+
+            <div class="info">
+                <h3> <span> NAME:</span> MA. THERESA RIVAS AGANG
+		    <h3> <span> GENDER:</span> Female</h3>
+                <h3> <span> AGE:</span> 34 years old</h3>
+                <h3> <span> CIVIL STATUS:</span> Married</h3>
+                <h3> <span> DATE OF BIRTH</span> February 20, 1988</h3>
+		    <h3> <span> PLACE OF BIRTH</span>Tagbina, Surigao del 
+ 		    Sur</h3>
+                <h3> <span> FATHER'S NAME:</span> Ceriaco M. Rivas Sr.</h3>
+		    <h3> <span> MOTHER'S ANME:</span> Maria Salome Estillore Rivas</h3>
+            </div>
+
+           
+
+    </section>
+
+    <!-- about section ends -->
+
+
+
+    <!-- education section starts -->
+    
+<section class="education" id="education">
+
+<h1 class="heading"> my<span> education</span></h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-graduation-cop"></i>
+        <span>2023 - 2024 </span>
+        <h3>TERTIARY EDUCATION</h3>
+        <p>SCHOOL NAME: NORTH EASTERN MINDANAO STATE UNIVERSITY</p>
+        <p>DEGREE: BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY</p>
+        <p>ADDRESS: POBLACION, CAGWAIT, SURIGAO DEL SUR</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cop"></i>
+        <span>2001 - 2005</span>
+        <h3>SECONDARY</h3>
+        <p>SCHOOL NAME:Mangagoy National High School</p>
+	  <P>ADDRESS:Mangagoy, Bislig City, Surigao del Sur</p>
+        </p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cop"></i>
+        <span>1995 - 2001</span>
+        <h3>PRIMARY</h3>
+        <p>SCHOOL NAME:Cagwait Central Elementary School</p>
+	  <P>ADDRESS:Poblacion, CAGWAIT, SURIGAO DEL SUR</p>
+        </p>
+    </div>
+
+    
+</div>
+
+</section>
+
+    <!-- education section ends -->
+
+    <!-- portfolio section starts -->
+
+    <section class="portfolio" id="portfolio">
+
+        <h1 class="heading"> my<span> portfolio</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/log.jpeg">
+            </div>
+
+            <div class="box">
+                <img src="images/ro.jpeg">
+            </div>
+
+            <div class="box">
+                <img src="images/nio.jpeg">
+            </div>
+
+            <div class="box">
+                <img src="images/rance.jpeg">
+            </div>
+
+        </div>
+
+    </section>
+    <!-- portfolio section ends -->
+
+
+
+    <!-- contacts section starts -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"><span>CONTACT</span>  ME</h1>
+
+        <div class="row">
+            <div class="content">
+
+                <h3 class="title">contact info</h3>
+
+                <div class="info">
+
+                    <h3> <i class="fas fa-envelop">agangmatheresa@gmail.com</i> </h3>
+                    <h3> <i class="fas fa-phone">SMART: #0951-799-1243</i></h3>
+                    <h3> <i class="fas fa-map-hometown">PUROK Nangka, MArarag, Marihatag, Surigao Del Sur,Reg.XIII, Phil.</i></h3>
+
+                </div>
+
+            </div>
+
+            <form action="">
+
+		
+
+                <input type="text" placeholder="NAME:" class="box">
+                <input type="text" placeholder="EMAIL:" class="box">
+                <input type="text" placeholder="PROJECT:" class="box">
+
+		
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="MESSAGE:"></textarea> 
+                <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i></button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contacts section ends -->
+
+
+
+
+
+
+
+
+
+
+    <script src="francejs.js"></script>
+</body>
+</html>
+<script>
